@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+import logo from "./logo.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './App.css';
+import "./App.css";
 import MyNav from "./components/MyNav";
 import MyFooter from "./components/MyFooter";
 import Welcome from "./components/Welcome";
@@ -11,7 +11,8 @@ function App() {
     <div>
       <MyNav />
       <Welcome />
-    
+      <LatestRelease />
+      <MyFooter />
     </div>
   );
 }
